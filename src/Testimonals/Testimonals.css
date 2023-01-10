@@ -1,32 +1,52 @@
- .TestmonalCont{
-    background: #F4F6FC;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.testimonials {
+  padding-top: 180px;
 }
-.testDisplay{
-    width: 50%;
-    margin: auto;
+.testimonials h3 {
+  font-family: "Inter";
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 64px;
+  color: #172b4d;
+  text-align: center;
 }
-.headline{
-    margin: auto;
+.horizontalLine {
+  width: 10%;
+  margin: auto;
+  border-bottom: 2px solid #172b4d;
+  padding-top: 20px;
 }
-.smalltextcenter{
-margin: auto;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #172B4D;
+.testimony {
+  padding: 20px 0px;
+  padding-bottom: 60px;
 }
-.client{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-color: #172B4D;
+.test-cont {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.test-cont img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 30px;
+}
+.description {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 20px;
+}
+.title {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  padding: 20px 0px;
+  color: #172b4d;
 }
