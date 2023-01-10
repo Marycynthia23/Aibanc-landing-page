@@ -1,0 +1,32 @@
+ .TestmonalCont{
+    background: #F4F6FC;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testDisplay{
+    width: 50%;
+    margin: auto;
+}
+.headline{
+    margin: auto;
+}
+.smalltextcenter{
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #172B4D;
+}
+.client{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #172B4D;
+}
