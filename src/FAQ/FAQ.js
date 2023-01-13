@@ -13,7 +13,7 @@ const FAQ = () => {
   return (
     <div className='faqsection'>
         <h3 className='faqheadline'>Frequently Asked Questions</h3>
-        <div style={{
+        <div className='test' style={{
             margin: "auto",
             width: "60%"
         }}>
@@ -24,7 +24,7 @@ const FAQ = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{
+          <Typography  style={{
             fontSize: "26px",
             fontWeight: "600",
             lineHeight: "31px",
@@ -35,7 +35,7 @@ const FAQ = () => {
           }}>Why request my BVN?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography style={{
+          <Typography  style={{
             fontSize: "20px",
             fontWeight: "400",
             lineHeight: "30px",

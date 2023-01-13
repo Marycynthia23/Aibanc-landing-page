@@ -1,16 +1,152 @@
 .NavContainer{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 0px 5%;
 }
 .logo{
-width: 40%;
+    width: 13%;
+}
+.logo img{
+width: 100%;
 
 }
+.Hamburger{
+    display: none
+}
+@media screen and (max-width: 767px) {
+    .Hamburger{
+        display: fixed;
+        padding-top: 10px;
+        margin-left: 10px;
+        z-index: 10;
+    }
+   
+}
+/*paste start*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+    background: rgb(194, 62, 62);
+}
+
+
+
+.nav-links{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.landing {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 768px)  {
+
+    .line{
+        width: 50px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    .main-nav{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+    .line{
+        height: 5px;
+        width: 26px;
+        background: #172B4D;
+        border-radius: 10px;
+    }
+
+    .nav-links{
+        position: fixed;
+        background: rgb(194, 62, 62);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path:  circle(100px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+
+
+    .nav-links.open{
+        clip-path: circle(1500px at 90% -10%);
+        -webkit-clip-path:  circle(1500px at 90% -10%);
+        pointer-events: all;
+        
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .nav-links li {
+        opacity: 0;
+
+    }
+    .nav-links li a{
+        font-size: 20px;
+    }
+    .nav-links li:nth-child(1) {
+        transition: 0.5s ease 0.2s;  
+    }
+    .nav-links li:nth-child(2) {
+        transition: 0.5s ease 0.5s;
+       
+    }
+    .nav-links li:nth-child(3) {
+        transition: 0.5s ease 0.7s;
+    }
+    li.fade{
+        opacity: 1;
+    }
+
+    
+}
+/*paste start*/
+
+
 .navmenu{
-    width: 60%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,4 +162,65 @@ font-weight: 400;
 font-size: 18px;
 line-height: 20px;
 color: #172B4D;
+}
+.googleLink{
+background: #011d85;
+border-radius: 6px;
+}
+.googleBg{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: left;
+
+}
+.googleBg img{
+    width: 40px;
+    height: 40px;
+}
+.googleBg p{
+color: #fff;
+padding: 0 10px;
+
+}
+.googleSm{
+    font-size: 7px;
+    margin-bottom: 0;
+}
+.googleLg{
+    font-size: 15px;
+    margin-top: 0;
+}
+@media screen and (max-width: 1000px){
+    .navmenu{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    .NavContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 5%;
+    }
+    .logo{
+        width: 13%;
+    }
+    .logo img{
+    width: 100%;
+    
+    }
+    .navmenu{
+        display: none;
+        
+    }
+    .navmenu  li{
+        list-style-type: none;
+    
+    }
+  
 }

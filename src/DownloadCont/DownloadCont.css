@@ -1,20 +1,24 @@
 .downloadCont{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 background: #011D85;
 border-radius: 9px;
 margin: auto;
-padding: 50px;
+padding: 2% 8%;
+}
+#download{
+    scroll-behavior: smooth;
 }
 .content{
-width: 55%;
+width: 60%;
 }
 .downloadHeadline{
 font-weight: 700;
 font-size: 45px;
 color: #FFFFFF;
+padding-bottom: 10px;
 }
 .subtext{
 font-family: 'Inter';
@@ -24,3 +28,19 @@ font-size: 20px;
 line-height: 30px;
 color: #E7E7E7;
 }
+@media screen and (max-width: 320px){
+    .downloadCont{
+        flex-direction: column;
+    padding-left: 10px;
+    align-items: flex-start;
+    }
+    .content{
+    width: 100%;
+    }
+    .downloadHeadline{
+    font-weight: 500;
+    font-size: 25px;
+    }
+    .subtext{
+    font-size: 16px;
+    }}

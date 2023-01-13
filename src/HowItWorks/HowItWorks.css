@@ -3,10 +3,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5% 5%;
+    
 }
 
 .Leftcont{
-    width: 44%;
+    width: 45%;
+}
+.HowItWorksrightcont{
+  width: 50%;
+
+}
+.HowItWorksrightcont img{
+  width: 100%;
 }
 .headline{
     font-style: normal;
@@ -28,23 +37,119 @@ font-size: 20px;
 line-height: 30px;
 color: #333333;
     }
-    .progress{
+    .step{
+        position: relative;
+        z-index: 999;
         display: flex;
-        justify-content: center;
         align-items: center;
-    }
-    .colContainer{
+     }
+      .title {
+        line-height: 1.5em;
+        /* font-size: 1.4em; */
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #172B4D;
+        margin-bottom: 0;
+      }
+      .caption {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333333;
+      }
+      .step + .step {
+        margin-top: 1.5em
+      }
+      .step > div:not(:first-child) {
+        margin-left: 1.5em;
+        padding-left: 1em;
+      }
+      /* Circle */
+      .circleCont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+.circle {
+  background: #C8DEFF;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    line-height: 1.1em;
+    border-radius: 100%;
+    color: #3861FB;
+    text-align: center;
+    box-shadow: 0 0 0 3px #fff;
+    font-size: 14px;
+  }
+  .circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 2px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
 
-    }
-    .progressbar p{
-        width: 50px;
-
-    }
-    ul{
-        text-align: center;
-    }
-    ul li{
-        display: inline-block;
-        width: 200px;
-        list-style-type: none;
+    @media screen and (max-width: 320px){
+        .HowItWorks{
+          flex-direction: column;
+        }
+        
+        .Leftcont{
+            width: 100%;
+        }
+        .headline{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 60px;
+            color: #172B4D;
+            }
+          .HowItWorksrightcont{
+            width: 100%;
+          
+          }
+          .HowItWorksrightcont img{
+            width: 100%;
+          }
+              .step{
+                  position: relative;
+                  z-index: 999;
+                  display: flex;
+                  align-items: center;
+               }
+                .title {
+                  line-height: 1.5em;
+                  /* font-size: 1.4em; */
+                  font-weight: 600;
+                  font-size: 24px;
+                  line-height: 10px;
+                  margin-bottom: 0;
+                }
+                .caption {
+                  font-weight: 400;
+                  font-size: 18px;
+                }
+                .step + .step {
+                  margin-top: 1.5em
+                }
+                .step > div:not(:first-child) {
+                  margin-left: 1.5em;
+                  padding-left: 1em;
+                }
+                /* Circle */
+                
+          .circle {
+              font-size: 12px;
+            }
+            
     }
