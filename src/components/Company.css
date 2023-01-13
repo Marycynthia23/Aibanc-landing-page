@@ -1,0 +1,218 @@
+.company {
+  width: 100%;
+  max-width: 11200px;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 70px 20px;
+}
+.companyText {
+  width: 49%;
+  justify-content: center;
+  margin: auto;
+}
+.companyText h1 {
+  font-family: "Inter";
+  font-size: 55px;
+  font-weight: bolder;
+  line-height: 65px;
+  text-align: left;
+  color: #172b4d;
+}
+.companyText p {
+  font-family: "Inter";
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 40px;
+  color: #5b5971;
+}
+.companyImage {
+  width: 35%;
+  padding-top: 55px;
+  justify-content: center;
+  margin: auto;
+}
+.companyImage img {
+  width: 90%;
+  padding-left: 10px;
+}
+.value_container {
+  width: 100%;
+  background: #f4f6fc;
+  padding: 70px 0px 60px 0px;
+}
+.value_paragraph1 {
+  text-align: center;
+  margin: auto;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #172b4d;
+}
+.values {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 0px 10px 0px;
+}
+.value_button {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+}
+.container {
+  width: 21%;
+}
+.font {
+  font-size: 26px;
+  color: #ffff;
+}
+.security {
+  background: #3861fb;
+}
+.transparency {
+  background: #108953;
+}
+.efficiency {
+  background: #774fda;
+}
+.innovation {
+  background: #fdbd47;
+}
+.p1 {
+  font-size: 23px;
+  font-family: "inter";
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #172b4d;
+  padding: 16px 0px;
+}
+.p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #5b5971;
+}
+
+@media screen and (max-width: 700px) {
+  .company {
+    flex-direction: column;
+    height: auto;
+    padding: 0px 0px 70px 0px;
+  }
+  .companyText {
+    width: 90%;
+    margin: auto;
+    padding: 50px 30px 0px 30px;
+  }
+  .companyText h1 {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+    color: #172b4d;
+  }
+  .companyText p {
+    padding-top: 30px;
+    font-size: 23px;
+    line-height: 35px;
+    color: #5b5971;
+  }
+  .companyImage {
+    width: 75%;
+    padding-top: 65px;
+    margin: auto;
+  }
+  .companyImage img {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .value_container {
+    padding: 50px 0px 0px 0px;
+  }
+  .value_paragraph1 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  .values {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+  }
+  .p2 {
+    margin-bottom: 40px;
+    font-size: 23px;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .company {
+    flex-direction: column;
+    height: auto;
+    padding: 0px 0px 70px 0px;
+  }
+  .companyText {
+    width: 90%;
+    margin: auto;
+    padding: 50px 30px 0px 30px;
+  }
+  .companyText h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .companyText p {
+    font-size: 25px;
+  }
+  .companyImage {
+    width: 75%;
+    padding-top: 65px;
+    margin: auto;
+  }
+  .companyImage img {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .value_paragraph1 {
+    font-size: 37px;
+    line-height: 15px;
+  }
+  .values {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+  }
+  .p2 {
+    margin-bottom: 45px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+/* @media (min-width: 901px) {
+  .company {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 70px 20px;
+  }
+} */

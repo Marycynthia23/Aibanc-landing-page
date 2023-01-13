@@ -1,0 +1,77 @@
+.downloadSection {
+  padding-top: 130px;
+}
+.download {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0px;
+  width: 88%;
+  margin: auto;
+  background: #011d85;
+  border-radius: 10px;
+  color: white;
+}
+.downloadWriteUp {
+  width: 45%;
+  margin: auto;
+}
+.downloadWriteUp h3 {
+  font-family: "Inter";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+.downloadWriteUp p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #e7e7e7;
+}
+.downloadImage {
+  width: 30%;
+}
+.downloadImage img {
+  height: 190px;
+  width: 190px;
+  border-radius: 0px;
+  background: white;
+}
+
+@media screen and (max-width: 700px) {
+  .downloadImage {
+    display: none;
+  }
+  .downloadWriteUp {
+    width: 90%;
+    margin: auto;
+  }
+  .download {
+    padding: 50px 0px;
+  }
+  .downloadSection {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .downloadImage {
+    width: 35%;
+  }
+  .downloadWriteUp {
+    width: 55%;
+    margin: auto;
+  }
+  .downloadWriteUp h3 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .downloadWriteUp p {
+    font-family: "Inter";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #e7e7e7;
+  }
+}
