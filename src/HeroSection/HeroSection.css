@@ -1,0 +1,80 @@
+.Herosection{
+    background: #F4F6FC;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+.leftcont{
+    width: 43%;
+}
+.boldtext{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 80px;
+color: #172B4D;
+}
+.mediumtext{
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 40px;
+color: #5B5971;
+}
+.rightcont{
+    width: 44%;
+    background: #f4f6fc;
+}
+.CreditSection,
+.InterestSection,
+.CashbackSection{
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Creditleftcont{
+    width: 44%;
+    background: #f4f6fc;
+}
+.Creditrightcont,
+.CashBackrightcont{
+    width: 44%;
+}
+.smallHeadline{
+font-weight: 500;
+font-size: 22px;
+line-height: 60px;
+color: #27AE60;
+}
+.semiboldtext{
+font-weight: 800;
+font-size: 45px;
+line-height: 60px;
+color: #172B4D;
+}
+.semimediumtext{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #333333;
+}
+.downloadNow{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+
+}
+.downloadNow a{
+    color: #3861FB;
+}
+.InterestLeftCont{
+    width: 44%;
+}
+.InterestRightcont{
+    width: 44%;
+}

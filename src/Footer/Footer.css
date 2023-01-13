@@ -1,0 +1,28 @@
+.progress{
+    margin: 300px auto;
+}
+.progress p{
+    width: 80px;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    background: #ccc;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+ul li .num::after{
+content: '';
+height: 5px;
+background: #172B4D;
+display: block;
+position: absolute;
+
+}

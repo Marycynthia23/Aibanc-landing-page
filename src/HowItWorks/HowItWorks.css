@@ -1,0 +1,50 @@
+.HowItWorks{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Leftcont{
+    width: 44%;
+}
+.headline{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    color: #172B4D;
+    }
+    .subheadline{
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #172B4D;
+    }
+    .smalltext{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #333333;
+    }
+    .progress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .colContainer{
+
+    }
+    .progressbar p{
+        width: 50px;
+
+    }
+    ul{
+        text-align: center;
+    }
+    ul li{
+        display: inline-block;
+        width: 200px;
+        list-style-type: none;
+    }

@@ -1,14 +1,22 @@
-import "./App.css";
-import Company from "./components/Company";
-import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
+import DownloadCont from "./DownloadCont/DownloadCont";
+import FAQ from "./FAQ/FAQ";
+import Footer from "./Footer/Footer";
+import HeroSection from "./HeroSection/HeroSection";
+import HowItWorks from "./HowItWorks/HowItWorks";
+import Navbar from "./Navbar/Navbar";
+import Testimonals from "./Testimonals/Testimonals";
 
 function App() {
   return (
     <div className="App">
-      <Company />
-      <Contact />
-      {/* <Footer /> */}
+      <Navbar/>
+      <HeroSection/>
+      <HowItWorks/>
+      <DownloadCont/>
+      <Testimonals/>
+      <FAQ/>
+      <Footer/>
+
     </div>
   );
 }

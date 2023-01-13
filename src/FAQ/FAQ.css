@@ -1,0 +1,17 @@
+.faqsection{
+    min-height: 80vh;
+}
+.faqheadline{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #172B4D;
+}
+.subhead{
+    font-family: 'Inter';
+font-style: normal;
+
+}

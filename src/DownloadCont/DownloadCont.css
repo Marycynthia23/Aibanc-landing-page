@@ -1,0 +1,26 @@
+.downloadCont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background: #011D85;
+border-radius: 9px;
+margin: auto;
+padding: 50px;
+}
+.content{
+width: 55%;
+}
+.downloadHeadline{
+font-weight: 700;
+font-size: 45px;
+color: #FFFFFF;
+}
+.subtext{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #E7E7E7;
+}

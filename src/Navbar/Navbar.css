@@ -1,0 +1,29 @@
+.NavContainer{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.logo{
+width: 40%;
+
+}
+.navmenu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navmenu  li{
+    list-style-type: none;
+
+}
+.navmenu li a{
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #172B4D;
+}
