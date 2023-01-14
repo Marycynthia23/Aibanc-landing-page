@@ -1,6 +1,5 @@
 import React from 'react'
 import "./HeroSection.css"
-import mockup from "../Images/googleplay.png"
 import mockup1 from "../Images/hero.svg"
 import mockup2 from "../Images/credit.svg"
 import mockup3 from "../Images/interest.svg"
@@ -20,7 +19,7 @@ const HeroSection = () => {
                 <div className="btngoogle">
                 <div className='hgoogleLink'>
                   <div className='hgoogleBg'>
-                    <img src={googleplay}/>
+                    <img src={googleplay} alt="googleplay"/>
                     <div className='htextgoogle'>
                       <p className='hgoogleSm'>GET IT ON</p>
                       <p className='hgoogleLg'>Google Play</p>

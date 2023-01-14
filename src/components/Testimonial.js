@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonial.css";
 import Slider from "react-slick";
-import TestimonialPic1 from "./images/Image.png";
+// import TestimonialPic1 from "./images/Image.png";
 
 function Testimonial() {
   const hotelCards = [

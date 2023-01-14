@@ -3,7 +3,7 @@ import "./Navbar.css"
 import Logo from "../Images/logo.png"
 import googleplay from "../Images/googleplay.png"
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -52,7 +52,7 @@ const closeMenu = () => setClick(false);
 
           <li className='googleLink'>
                   <div className='googleBg'>
-                    <img src={googleplay}/>
+                    <img src={googleplay} alt="googleplay"/>
                     <div className='textgoogle'>
                       <p className='googleSm'>GET IT ON</p>
                       <p className='googleLg'>Google Play</p>
