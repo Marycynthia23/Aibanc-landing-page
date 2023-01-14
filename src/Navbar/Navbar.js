@@ -19,10 +19,7 @@ const closeMenu = () => setClick(false);
 
 <div className="navbar" id="navbar">
       <nav className="navBar">
-      {/* <NavLink to="/"> */}
             <img className="logo" src={Logo} alt="logo" />
-            {/* </NavLink> */}
-
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#172B4D" }}/>

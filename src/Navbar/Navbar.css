@@ -12,11 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 1%; */
+    padding: 0 5%;
 
   }
   .logo{
-    width: 15%;
+    width: 12.5%;
   }
   .logo img{
     width: 100%;
@@ -25,7 +25,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 40%; */
+    /* width: 50%; */
+    margin-bottom: 0;
   }
   .nav-item {
     padding: 12px 24px;
@@ -54,6 +55,9 @@
   .googleLink{
     background: #011d85;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    
     }
     .googleBg{
     display: flex;
@@ -115,7 +119,7 @@
       width: 100%;
     } */
   
-    .header .navbar {
+     .navbar {
       max-width: 100%;
     }
     .nav-item a {
@@ -149,15 +153,14 @@
   
     .navbar {
       height: 80px;
-      /* padding: 60px 30px 50px 30px; */
     }
   }
   
   @media screen and (max-width: 1400px) and (min-width: 940px) {
-    .navBar {
+    /* .navBar {
       margin: auto;
       width: 85%;
-    }
+    } */
   }
   
   
