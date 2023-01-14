@@ -1,35 +1,35 @@
-.faqsection{
+.faqsection {
+  /* min-height: 60vh; */
+  width: 90%;
+  margin-top: 100px;
+  margin: auto;
+  /* background: yellow; */
+  padding: 50px 0px;
+}
+.faqheadline {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+  color: #172b4d;
+}
+.subhead {
+  font-family: "Inter";
+  font-style: normal;
+}
+@media screen and (max-width: 375px) {
+  .faqsection {
     min-height: 60vh;
+  }
+  .faqheadline {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 30px;
+  }
+  .test {
+    width: auto;
+  }
 }
-.faqheadline{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 60px;
-    text-align: center;
-    color: #172B4D;
-}
-.subhead{
-    font-family: 'Inter';
-font-style: normal;
-
-}
-@media screen and (max-width: 375px){
-    .faqsection{
-        min-height: 60vh;
-        
-    }
-    .faqheadline{
-       
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 40px;
-        margin: 30px;
-        
-    }
-    .test{
-        width: auto;
-    }
-    
-    }

@@ -1,11 +1,12 @@
 .company {
   width: 100%;
-  max-width: 11200px;
-  height: 100vh;
+  max-width: 1300px;
+  /* height: 100vh; */
   display: flex;
   margin: auto;
   justify-content: center;
-  padding: 70px 20px;
+  padding: 20px 20px 50px 20px;
+  /* padding: 20px 20px; */
 }
 .companyText {
   width: 49%;
@@ -14,17 +15,17 @@
 }
 .companyText h1 {
   font-family: "Inter";
-  font-size: 55px;
-  font-weight: bolder;
+  font-size: 52px;
+  font-weight: 900;
   line-height: 65px;
   text-align: left;
   color: #172b4d;
 }
 .companyText p {
   font-family: "Inter";
-  padding-top: 30px;
-  font-size: 22px;
-  line-height: 40px;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 34px;
   color: #5b5971;
 }
 .companyImage {
@@ -52,7 +53,7 @@
   color: #172b4d;
 }
 .values {
-  width: 86%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -87,18 +88,18 @@
 .p1 {
   font-size: 23px;
   font-family: "inter";
-  font-weight: 500;
+  font-weight: 800;
   line-height: 30px;
   text-align: left;
   color: #172b4d;
-  padding: 16px 0px;
+  padding-top: 30px;
 }
 .p2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 25px;
+  line-height: 27px;
   color: #5b5971;
 }
 
@@ -206,13 +207,3 @@
     font-size: 26px;
   }
 }
-/* @media (min-width: 901px) {
-  .company {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    padding: 70px 20px;
-  }
-} */

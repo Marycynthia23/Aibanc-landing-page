@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Download.css";
+import { QRCodeSVG } from "qrcode.react";
 import Scan from "./images/scan.png";
+// import { useRef } from "react";
 
 function Download() {
+  const qrcodeRef = useRef(null);
   return (
     <div className="downloadSection">
       <div className="download">
@@ -15,7 +18,18 @@ function Download() {
         </div>
 
         <div className="downloadImage">
-          <img src={Scan} alt="scan" />
+          <div
+            className="qrcode"
+            style={{ width: "50%", background: "white", padding: "16px" }}
+          >
+            <QRCodeSVG
+              size="120"
+              fgColor="#000"
+              ref={qrcodeRef}
+              value="https://play.google.com/store/apps/details?id=co.aibanc.Aibanc_APP"
+            />
+          </div>
+          {/* <img src={Scan} alt="scan" /> */}
         </div>
       </div>
     </div>
