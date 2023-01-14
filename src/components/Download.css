@@ -46,12 +46,22 @@
   .downloadWriteUp {
     width: 90%;
     margin: auto;
+    align-items: center;
+  }
+  .downloadWriteUp h3 {
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .downloadWriteUp p {
+    font-size: 17px;
+    line-height: 30px;
   }
   .download {
-    padding: 50px 0px;
+    padding: 20px 0px;
   }
   .downloadSection {
-    padding-top: 100px;
+    padding-top: 60px;
   }
 }
 

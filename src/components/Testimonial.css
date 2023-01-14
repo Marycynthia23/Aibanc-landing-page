@@ -42,9 +42,9 @@
   color: #172b4d;
   padding-top: 20px;
 }
-.title {
+.text-cont-title {
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0em;
@@ -59,14 +59,12 @@
     margin: auto;
   }
   .testimonials h3 {
-    font-size: 35px;
-    line-height: 54px;
+    font-size: 28px;
+    line-height: 44px;
   }
-  .title {
-    font-size: 21px;
-  }
+
   .description {
-    font-size: 21px;
+    font-size: 15px;
   }
   .horizontalLine {
     width: 40%;
