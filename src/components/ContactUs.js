@@ -62,8 +62,6 @@ function ContactUs() {
         <br />
         <FAQ />
         <Download />
-        <Testimonial />
-        <Footer />
       </div>
 
       <br />
