@@ -42,7 +42,7 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "13px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -72,7 +72,7 @@ const FAQ = () => {
           >
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -88,7 +88,7 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -112,7 +112,7 @@ const FAQ = () => {
           >
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -128,7 +128,7 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -152,7 +152,7 @@ const FAQ = () => {
           >
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",
@@ -168,7 +168,7 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "25px",
+                fontSize: "23px",
                 fontWeight: "600",
                 lineHeight: "31px",
                 display: "flex",

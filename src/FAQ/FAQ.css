@@ -9,11 +9,12 @@
 .faqheadline {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 800;
-  font-size: 35px;
+  font-weight: 900;
+  font-size: 40px;
   line-height: 60px;
   text-align: center;
   color: #172b4d;
+  padding-bottom: 50px;
 }
 .subhead {
   font-family: "Inter";
