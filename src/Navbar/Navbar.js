@@ -45,7 +45,7 @@ const closeMenu = () => setClick(false);
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/Contactus" onClick={closeMenu}>
+            <NavLink to="/faq" onClick={closeMenu}>
             FAQs
             </NavLink>
           </li>
