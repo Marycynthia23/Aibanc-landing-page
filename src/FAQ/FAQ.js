@@ -42,19 +42,16 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "13px",
-                fontWeight: "600",
-                lineHeight: "31px",
-                display: "flex",
-                alignItems: "center",
-                color: "#172B4D",
-                boxshadow: "none",
-                padding: "20px 0px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "20px",
+                lineHeight: "40px",
+                color: "#5B5971",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              The regulators require the BVN to know your Customer (KYC) to
+              access our credit tool.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -88,19 +85,16 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "23px",
-                fontWeight: "600",
-                lineHeight: "31px",
-                display: "flex",
-                alignItems: "center",
-                color: "#172B4D",
-                boxshadow: "none",
-                padding: "20px 0px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "20px",
+                lineHeight: "40px",
+                color: "#5B5971",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              You can get your bank statement through your bank's mobile
+              application or by requesting one from a local branch near you.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -128,19 +122,23 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "23px",
-                fontWeight: "600",
-                lineHeight: "31px",
-                display: "flex",
-                alignItems: "center",
-                color: "#172B4D",
-                boxshadow: "none",
-                padding: "20px 0px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "20px",
+                lineHeight: "40px",
+                color: "#5B5971",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              This is possible if you have created an account in the past. To
+              find out if this is the case, please contact{" "}
+              <a
+                href="mailto:support@aibanc.co"
+                style={{ textDecoration: "none" }}
+              >
+                support@aibanc.co
+              </a>{" "}
+              via email.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -168,19 +166,22 @@ const FAQ = () => {
           <AccordionDetails>
             <Typography
               style={{
-                fontSize: "23px",
-                fontWeight: "600",
-                lineHeight: "31px",
-                display: "flex",
-                alignItems: "center",
-                color: "#172B4D",
-                boxshadow: "none",
-                padding: "20px 0px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "20px",
+                lineHeight: "40px",
+                color: "#5B5971",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Kinly contact{" "}
+              <a
+                href="mailto:support@aibanc.co"
+                style={{ textDecoration: "none" }}
+              >
+                support@aibanc.co
+              </a>{" "}
+              via email for further inquires.
             </Typography>
           </AccordionDetails>
         </Accordion>
