@@ -46,6 +46,8 @@ function ContactUs() {
           <img src={ContactPicture} alt="" />
         </div>
       </div>
+      <br/>
+      <br/>
       <FAQ/>
       <Testimonial/>
       <Footer/>
