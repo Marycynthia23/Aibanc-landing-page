@@ -3,29 +3,7 @@ import mockup0 from "../Images/Rectangle.svg"
 import "./HowItWorks.css"
 
 const HowItWorks = () => {
-    const steps = [
-        {
-          id: 1,
-          label: 'Register within minutes',
-          description: `Tell us a few details about you to help us create your Carbon account quickly.`,
-        },
-        {
-          id: 2,
-          label: 'Activate credit limit',
-          description:
-            'Tell us a few details about you to help us create your Carbon account quickly.',
-        },
-        {
-          id: 3,
-          label: 'Withdraw credit',
-          description: `Try out different ad text to see what brings in the most customers,
-                    and learn how to enhance your ads using features like ad extensions.
-                    If you run into any problems with your ads, find out how to tell if
-                    they're running and how to resolve approval issues.`,
-        },
-      ];
       
-
   return (
     <div className='HowItWorks'>
         <div className="Leftcont">

@@ -130,122 +130,22 @@ scroll-behavior: smooth;
         }
         .hgoogleBg p{
             color: #fff;
-            padding: 0 10px;
+            padding: 0 0.7rem;
             
             }
 .htextgoogle .hgoogleSm{
-    font-size: 12px;
+    font-size: 0.8rem;
     margin-bottom: 0;
     margin-top: 5px;
 }
 .htextgoogle .hgoogleLg{
-    font-size: 24px;
+    font-size: 1.3rem;
     margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 5px;
 }
-/* 
-@media screen and (max-width: 1000px) {
-    .Herosection{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 5%;
-        
-    }
-    .leftcont{
-        width: 46%;
-    }
-    .boldtext{
-    font-weight: 600;
-    font-size: 40px;
-    
-    }
-    .now{
-        color: #5a27ae;
-        border-bottom: 5px solid #5a27ae;
-    }
-    .mediumtext{
-    font-weight: 400;
-    font-size: 18px;
-    
-    }
-    .rightcont{
-        width: 48%;
-    }
-    .rightcont img{
-        width: 98%;
-    }
-    .CreditSection,
-    .InterestSection,
-    .CashbackSection{
-        min-height: 80vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 5% 5%;
-    }
-    .Creditleftcont{
-        width: 40%;
-    }
-    .Creditleftcont img {
-        width: 99%;
-    }
-    .Creditrightcont,
-    .CashBackrightcont{
-        width: 45%;
-    }
-    .smallHeadline{
-    font-weight: 500;
-    font-size: 22px;
-    
-    }
-    .semiboldtext{
-    font-weight: 800;
-    font-size: 45px;
-    }
-    .semimediumtext{
-    font-weight: 400;
-    font-size: 20px;
-    }
-    .downloadNow{
-    font-weight: 400;
-    font-size: 20px;
-    
-    }
-    .downloadNow a{
-        color: #3861FB;
-    }
-    .InterestLeftCont{
-        width: 48%;
-    }
-    .InterestLeftCont img{
-        width: 97%;
-    }
-    .InterestRightcont{
-        width: 44%;
-    }
-    .btngoogle{
-        width: 40%;
-    }
-    .hgoogleBg img{
-        width: 50px;
-        height: 50px;
-    }
-    
-    .htextgoogle .hgoogleSm{
-        font-size: 11px;
-        margin-bottom: 0;
-        margin-top: 5px;
-    }
-    .htextgoogle .hgoogleLg{
-        font-size: 18px;
-        margin-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 5px;
-    }
-} */
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 768px) {
     .leftcont{
         width: 46%;
     }
@@ -264,7 +164,7 @@ scroll-behavior: smooth;
     
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
     .Herosection{
       flex-direction: column;
         padding: 4% 2%;
@@ -297,6 +197,122 @@ scroll-behavior: smooth;
     .CashbackSection{
         flex-direction: column;
         padding: 5% 5%;
+        margin-top: 1.9rem;
+    }
+    .Creditleftcont{
+        width: 100%;
+    }
+    .Creditleftcont img {
+        width: 100%;
+    }
+    .Creditrightcont,
+    .CashBackrightcont{
+        width: 100%;
+    }
+    .smallHeadline{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    }
+    .semiboldtext{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    }
+    .semimediumtext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    }
+    .downloadNow{
+    
+    font-size: 18px;
+    line-height: 40px;
+    
+    }
+    
+    .InterestLeftCont{
+        width: 100%;
+    }
+    .InterestLeftCont img{
+        width: 100%;
+    }
+    .InterestRightcont{
+        width: 100%;
+    }
+    .btngoogle{
+        width: 50%;
+    }
+    .hgoogleBg img{
+        width: 32px;
+        height: 32px;
+    }
+    .htextgoogle .hgoogleSm{
+        font-size: 11px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    .htextgoogle .hgoogleLg{
+        font-size: 24px;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .leftcont{
+        width: 46%;
+    }
+    .boldtext{
+    font-weight: 600;
+    font-size: 30px;
+    
+    }
+    .now{
+        color: #5a27ae;
+        border-bottom: 5px solid #5a27ae;
+    }
+    .mediumtext{
+    font-weight: 400;
+    font-size: 16px;
+    
+    }
+}
+@media screen and (min-width: 375px){
+    .Herosection{
+      flex-direction: column;
+        padding: 4% 2%;
+    }
+    .leftcont{
+        width: 100%;
+    }
+    .boldtext{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    }
+    .mediumtext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+
+    }
+    .rightcont{
+        width: 100%
+    }
+    .rightcont img{
+        width: 100%;
+    
+    }
+    .CreditSection,
+    .InterestSection,
+    .CashbackSection{
+        flex-direction: column;
+        padding: 5% 5%;
+        margin-top: 1.9rem;
     }
     .Creditleftcont{
         width: 100%;

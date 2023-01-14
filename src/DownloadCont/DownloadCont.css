@@ -28,7 +28,7 @@ font-size: 20px;
 line-height: 30px;
 color: #E7E7E7;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
     .downloadCont{
         flex-direction: column;
     padding-left: 10px;

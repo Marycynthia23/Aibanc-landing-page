@@ -1,30 +1,56 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import logo from "../Images/logo.png"
+import Logo from "../Images/logo.png"
 import googleplay from "../Images/googleplay.png"
+import { FaBars, FaTimes } from "react-icons/fa";
+import { NavLink, Link } from "react-router-dom";
 
-const Navbar = (isOpen) => {
-  const[openNav,setOpenNav] = useState(false);
-  // const[closeNav, setCloseNav] = useState(false);
 
-const handleToggleClick =()=>{
-  setOpenNav(!openNav)
-}
+const Navbar = () => {
+
+
+const [click, setClick] = useState(false);
+
+const handleClick = () => setClick(!click);
+
+const closeMenu = () => setClick(false);
 
   return (
-    <div className='NavContainer'>
-         <div className="logo"><img src={logo} alt="logo" /></div>
-         <nav onClick={handleToggleClick}>
-        <div className="main-nav"  isOpen={openNav}>
-            <div className="line burger1"></div>
-            <div className="line burger2"></div>
-            <div className="line burger3"></div>
+
+<div className="navbar" id="navbar">
+      <nav className="navBar">
+      <NavLink to="/" onClick={closeMenu}>
+            <img className="logo" src={Logo} alt="logo" />
+            </NavLink>
+
+        <div className="hamburger" onClick={handleClick}>
+          {click ? (
+            <FaTimes size={30} style={{ color: "#172B4D" }}/>
+          ) : (
+            <FaBars size={30} style={{ color: "#172B4D" }}/>
+          )}
         </div>
-        <ul class="nav-links">
-        <li><a href="">Our Company</a></li>
-                <li><a href="">Contact us</a></li>
-                <li><a href="">FAQs</a></li>
-                <li className='googleLink'>
+
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+         
+          <li className="nav-item">
+            <NavLink to="/Company" onClick={closeMenu}>
+            Our Company
+            </NavLink>
+          </li>
+
+          <li className="nav-item">
+            <NavLink to="/Contactus" onClick={closeMenu}>
+            Contact us
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/Contactus" onClick={closeMenu}>
+            FAQs
+            </NavLink>
+          </li>
+
+          <li className='googleLink'>
                   <div className='googleBg'>
                     <img src={googleplay}/>
                     <div className='textgoogle'>
@@ -34,39 +60,11 @@ const handleToggleClick =()=>{
                   </div>
                   </li>
         </ul>
-    </nav>
-    {/* <style jsx>{`
-    .burger1{
-      transform:${isOpen ? 'rotate(45deg)' : 'rotate(0)'};
-
-    }
-    .burger2{
-      transform: ${isOpen ? 'translateX(100%)' : 'translateX(0)'};
-      opacity: ${isOpen ? 0 : 1};
-
-    }
-    .burger3{
-      transform:${isOpen ? 'rotate(-45deg)' : 'rotate(0)'};
-
-    }
-    `}
-    </style> */}
-             {/* <ul className="navmenu">
-                <li><a href="">Our Company</a></li>
-                <li><a href="">Contact us</a></li>
-                <li><a href="">FAQs</a></li>
-                <li className='googleLink'>
-                  <div className='googleBg'>
-                    <img src={googleplay}/>
-                    <div className='textgoogle'>
-                      <p className='googleSm'>GET IT ON</p>
-                      <p className='googleLg'>Google Play</p>
-                    </div>
-                  </div>
-                  </li>
-         </ul> */}
+      </nav>
     </div>
-    
+
+
+   
   )
 }
 

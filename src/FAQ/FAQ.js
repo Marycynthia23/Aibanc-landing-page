@@ -11,6 +11,7 @@ const FAQ = () => {
    
 
   return (
+
     <div className='faqsection'>
         <h3 className='faqheadline'>Frequently Asked Questions</h3>
         <div className='test' style={{
@@ -31,7 +32,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
-            border:"none"
+            boxshadow: "none"
           }}>Why request my BVN?</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -42,6 +43,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -65,6 +67,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>How can I get my banks statement?</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -75,6 +78,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -95,6 +99,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
             
           }}>Unable to sign in, BVN registered to another user?</Typography>
         </AccordionSummary>
@@ -106,6 +111,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -125,6 +131,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>What should I do if I need more help?</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -136,6 +143,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.

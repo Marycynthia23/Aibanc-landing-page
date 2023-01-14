@@ -1,226 +1,171 @@
-.NavContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 5%;
-}
-.logo{
-    width: 13%;
-}
-.logo img{
-width: 100%;
-
-}
-.Hamburger{
-    display: none
-}
-@media screen and (max-width: 767px) {
-    .Hamburger{
-        display: fixed;
-        padding-top: 10px;
-        margin-left: 10px;
-        z-index: 10;
-    }
-   
-}
-/*paste start*/
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-nav{
-    height: 10vh;
-    background: rgb(194, 62, 62);
-}
-
-
-
-.nav-links{
-    display: flex;
-    width: 50%;
-    list-style: none;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-
-
-.nav-links li a{
-    color: white;
-    text-decoration: none;
-}
-
-
-.landing {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-@media screen and (max-width: 768px)  {
-
-    .line{
-        width: 50px;
-        height: 3px;
-        background: white;
-        margin: 5px;
-    }
-
-    nav{
-        position: relative;
-    }
-
-    .main-nav{
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 50%;
-        transform: translate(-5%, -50%);
-        z-index: 2;
-    }
-    .line{
-        height: 5px;
-        width: 26px;
-        background: #172B4D;
-        border-radius: 10px;
-    }
-
-    .nav-links{
-        position: fixed;
-        background: rgb(194, 62, 62);
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path:  circle(100px at 90% -10%);
-        transition: all 1s ease-out;
-        pointer-events: none;
-    }
-
-
-    .nav-links.open{
-        clip-path: circle(1500px at 90% -10%);
-        -webkit-clip-path:  circle(1500px at 90% -10%);
-        pointer-events: all;
-        
-    }
-    .landing {
-        flex-direction: column;
-    }
-    .nav-links li {
-        opacity: 0;
-
-    }
-    .nav-links li a{
-        font-size: 20px;
-    }
-    .nav-links li:nth-child(1) {
-        transition: 0.5s ease 0.2s;  
-    }
-    .nav-links li:nth-child(2) {
-        transition: 0.5s ease 0.5s;
-       
-    }
-    .nav-links li:nth-child(3) {
-        transition: 0.5s ease 0.7s;
-    }
-    li.fade{
-        opacity: 1;
-    }
-
-    
-}
-/*paste start*/
-
-
-.navmenu{
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.navmenu  li{
-    list-style-type: none;
-
-}
-.navmenu li a{
-text-decoration: none;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 20px;
-color: #172B4D;
-}
-.googleLink{
-background: #011d85;
-border-radius: 6px;
-}
-.googleBg{
-display: flex;
-justify-content: space-between;
-align-items: center;
-text-align: left;
-
-}
-.googleBg img{
-    width: 40px;
-    height: 40px;
-}
-.googleBg p{
-color: #fff;
-padding: 0 10px;
-
-}
-.googleSm{
-    font-size: 7px;
-    margin-bottom: 0;
-}
-.googleLg{
-    font-size: 15px;
-    margin-top: 0;
-}
-@media screen and (max-width: 1000px){
-    .navmenu{
-        width: 70%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-}
-@media screen and (max-width: 980px) {
-    .NavContainer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2% 5%;
-    }
-    .logo{
-        width: 13%;
-    }
-    .logo img{
+.navbar {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
     width: 100%;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+    max-width: 1150px;
+  }
+  .logo{
+    width: 13%;
+  }
+  .logo img{
+    width: 100%;
+  }
+  .nav-menu {
+    display: flex;
+  }
+  .nav-item {
+    padding: 12px 24px;
+    font-weight: 500;
+  }
+  .navBar li {
+    list-style: none;
+  }
+  .nav-item a {
+    color: #172B4D;
+    text-decoration: none;
+    font-size: 18px;
+    }
+ 
+  .nav-item .active {
+    padding-bottom: 12px;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .navbar-btn:hover {
+    padding: 17px 22px;
+  }
+ 
+  .googleLink{
+    background: #011d85;
+    border-radius: 6px;
+    }
+    .googleBg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
     
     }
-    .navmenu{
-        display: none;
-        
+    .googleBg img{
+        width: 40px;
+        height: 40px;
     }
-    .navmenu  li{
-        list-style-type: none;
+    .googleBg p{
+    color: #fff;
+    padding: 0 10px;
     
+    }
+    .googleSm{
+        font-size: 7px;
+        margin-bottom: 0;
+    }
+    .googleLg{
+        font-size: 15px;
+        margin-top: 0;
     }
   
-}
+  @media screen and (max-width: 708px) and (min-width: 568px) {
+    .logo{
+      width: 13%;
+    }
+    .logo img{
+      width: 100%;
+    }
+    .nav-item a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      }
+  }
+  @media screen and (max-width: 567px) {
+    .logo{
+      width: 13%;
+    }
+    .logo img{
+      width: 100%;
+    }
+    .nav-item a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      }
+  }
+  
+  @media screen and (max-width: 940px) {
+    .logo{
+      width: 13%;
+    }
+    .logo img{
+      width: 100%;
+    }
+  
+    .header .navbar {
+      max-width: 100%;
+    }
+    .nav-item a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      }
+    .hamburger {
+      display: block;
+      color: white;
+      padding-right: 40px;
+    }
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      flex-direction: column;
+      background: #172B4D;
+      width: 70%;
+      height: 60vh;
+      z-index: 999;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .nav-menu.active {
+      left: 0;
+    }
+    .nav-item {
+      margin: 1.5rem 0;
+    }
+    .header-logo {
+      width: 80px;
+      padding-left: 20px;
+    }
+    .navbar-btn {
+      margin: auto;
+      padding: 15px 17px;
+      margin-top: 0px;
+    }
+    .navbar {
+      height: 80px;
+      /* padding: 60px 30px 50px 30px; */
+    }
+  }
+  
+  @media screen and (max-width: 1400px) and (min-width: 940px) {
+    .navBar {
+      margin: auto;
+      width: 85%;
+    }
+  }
+  
+  
+  
+  

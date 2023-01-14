@@ -15,7 +15,7 @@
 font-style: normal;
 
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
     .faqsection{
         min-height: 80vh;
         
@@ -25,6 +25,7 @@ font-style: normal;
         font-weight: 600;
         font-size: 30px;
         line-height: 40px;
+        margin: 30px;
         
     }
     .test{

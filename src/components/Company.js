@@ -7,9 +7,13 @@ import { RiSearchEyeLine } from "react-icons/ri";
 import { MdPeopleOutline } from "react-icons/md";
 import Testimonial from "./Testimonial";
 import Download from "./Download";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function Company() {
   return (
+    <>
+    <Navbar/>
     <div className="CompanyPage">
       <div className="company">
         <div className="companyText">
@@ -77,7 +81,9 @@ function Company() {
       <Download />
 
       <Testimonial />
+      <Footer/>
     </div>
+    </>
   );
 }
 
