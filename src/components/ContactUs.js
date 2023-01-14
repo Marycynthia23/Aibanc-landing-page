@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import FAQ from "../FAQ/FAQ";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -7,6 +7,19 @@ import ContactPicture from "./images/contact.png";
 import Testimonial from "./Testimonial";
 
 function ContactUs() {
+  const [name, setName] = useState("");
+  const [textarea, setTextarea] = useState("");
+
+  const handleChange = (e)=>{
+    setName(e.target.value)
+    setTextarea(e.target.value)
+
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
   return (
     <>
     <Navbar/>
@@ -15,16 +28,21 @@ function ContactUs() {
         <div className="con-contact-form">
           <div className="contact-form">
             <h3>Get in touch</h3>
-            <form>
+
+            <form onSubmit={handleSubmit}>
               <div className="form-field">
                 <div className="inner-field">
                   <label className="label">Full name</label>
-                  <input type="text" placeholder="Enter full name" />
+                  <input type="text" value={name}
+                    onChange={handleChange}
+                     placeholder="Enter full name" />
                 </div>
 
                 <div className="inner-field">
                   <label className="label">Email Address</label>
-                  <input type="text" placeholder="Enter email address" />
+                  <input type="text" 
+                  onChange={handleChange}
+                  placeholder="Enter email address" />
                 </div>
               </div>
 
@@ -35,7 +53,9 @@ function ContactUs() {
 
               <div className="message">
                 <label className="label">Message</label>
-                <textarea placeholder="Message......" />
+                <textarea placeholder="Message......"  
+                value={textarea} 
+                onChange={handleChange}/>
               </div>
 
               <button type="submit">Send</button>
