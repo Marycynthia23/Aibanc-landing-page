@@ -1,5 +1,5 @@
 .faqsection{
-    min-height: 80vh;
+    min-height: 60vh;
 }
 .faqheadline{
     font-family: 'Inter';
@@ -17,7 +17,7 @@ font-style: normal;
 }
 @media screen and (max-width: 375px){
     .faqsection{
-        min-height: 80vh;
+        min-height: 60vh;
         
     }
     .faqheadline{
