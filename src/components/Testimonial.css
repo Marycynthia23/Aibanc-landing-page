@@ -1,5 +1,5 @@
 .testimonials {
-  padding-top: 180px;
+  padding-top: 90px;
 }
 .testimonials h3 {
   font-family: "Inter";
@@ -26,10 +26,11 @@
   justify-content: center;
 }
 .test-cont img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   margin-top: 30px;
+  border-radius: 50%;
 }
 .description {
   font-family: "Inter";
