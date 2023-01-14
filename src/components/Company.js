@@ -18,7 +18,8 @@ function Company() {
         <div className="company">
           <div className="companyText">
             <h1 className="paragraph1">
-              We make credit a part of your everyday life.
+              We make credit a part <br className="break" /> of your everyday
+              life.
             </h1>
             <p className="paragraph2">
               Apply early, get approved and get on with life. Aibanc is changing
