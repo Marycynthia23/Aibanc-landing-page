@@ -30,6 +30,16 @@ function ContactUs() {
                   </div>
                 </div>
 
+                <div className="inner-field22">
+                  <label className="label">Full name</label>
+                  <input type="text" placeholder="Enter your fullname" />
+                </div>
+
+                <div className="inner-field22">
+                  <label className="label">Email address</label>
+                  <input type="text" placeholder="Enter your email address" />
+                </div>
+
                 <div className="inner-field2">
                   <label className="label">Subject</label>
                   <input type="text" placeholder="Kindly select a subject" />

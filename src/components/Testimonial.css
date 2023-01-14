@@ -42,14 +42,14 @@
   color: #172b4d;
   padding-top: 20px;
 }
-.title {
+.text-cont-title {
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0em;
   padding: 20px 0px;
-  color: red;
+  color: #172b4d;
 }
 
 @media screen and (max-width: 700px) {
@@ -62,10 +62,7 @@
     font-size: 28px;
     line-height: 44px;
   }
-  .title {
-    font-size: 1px;
-    font-weight: 700;
-  }
+
   .description {
     font-size: 15px;
   }
