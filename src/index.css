@@ -2,9 +2,11 @@
 body {
   margin: 0;
   font-family: inter;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -11,9 +11,10 @@ const FAQ = () => {
    
 
   return (
+
     <div className='faqsection'>
         <h3 className='faqheadline'>Frequently Asked Questions</h3>
-        <div style={{
+        <div className='test' style={{
             margin: "auto",
             width: "60%"
         }}>
@@ -24,24 +25,25 @@ const FAQ = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{
+          <Typography  style={{
             fontSize: "26px",
             fontWeight: "600",
             lineHeight: "31px",
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
-            border:"none"
+            boxshadow: "none"
           }}>Why request my BVN?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography style={{
+          <Typography  style={{
             fontSize: "20px",
             fontWeight: "400",
             lineHeight: "30px",
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -65,6 +67,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>How can I get my banks statement?</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -75,6 +78,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -95,6 +99,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
             
           }}>Unable to sign in, BVN registered to another user?</Typography>
         </AccordionSummary>
@@ -106,6 +111,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -125,6 +131,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>What should I do if I need more help?</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -136,6 +143,7 @@ const FAQ = () => {
             display: "flex",
             alignItems: "center",
             color: "#172B4D",
+            boxshadow: "none"
           }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.

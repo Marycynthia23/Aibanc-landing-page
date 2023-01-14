@@ -1,38 +1,29 @@
 import React from 'react'
 import "./Footer.css"
+import logo from "../Images/logo.png"
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div className='FooterCont'>
-{/* <ul className="navmenu">
-    <li><a href="">Our Company</a></li>
-    <li><a href="">Contact us</a></li>
-    <li><a href="">FAQs</a></li>
-    <li><a href="">Support@aibanc.co</a></li>
-</ul>
-<div className="socials">
+        <div className="logo">
+            <img src={logo} alt="footerlogo"/>
+        </div>
+        <ul className="navmenu">
+            <li><a href="/Company">Our Company</a></li>
+            <li><a href="/Contact ">Contact us</a></li>
+            <li><a href="/faq">FAQs</a></li>
+            <li><a href="mailto:Support@aibanc.co">Support@aibanc.co</a></li>
+        </ul>
+        <div className="socials">
+            <div className="social-media"><FaFacebookF /></div>
+            <div className="social-media"><BsTwitter /></div>
+            <div className="social-media"><BsInstagram /></div>
 
-</div> */}
-<div className="progress">
-<ul>
-    <li>
-        <p>1</p>
-        <a href="" lassName="num">5</a>
-        <h6>Select item</h6>
-    </li>
-    <li>
-        <p>2</p>
-        <a href="" lassName="num">6</a>
-        <h6> item</h6>
-    </li>
-    <li>
-        <p>3</p>
-        <a href="" lassName="num">7</a>
-        <h6>Select </h6>
-    </li>
-   
-</ul>
-</div>
+        </div> 
+
     </div>
   )
 }

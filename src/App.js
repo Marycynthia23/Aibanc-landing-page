@@ -1,22 +1,21 @@
-import DownloadCont from "./DownloadCont/DownloadCont";
-import FAQ from "./FAQ/FAQ";
-import Footer from "./Footer/Footer";
-import HeroSection from "./HeroSection/HeroSection";
-import HowItWorks from "./HowItWorks/HowItWorks";
-import Navbar from "./Navbar/Navbar";
-import Testimonals from "./Testimonals/Testimonals";
+import {BrowserRouter as Router, Routes, Route,} from "react-router-dom";
+import Company from "./components/Company";
+import ContactUs from "./components/ContactUs";
+import FAQPage from "./FAQPage/FAQPage";
+import Home from "./Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <HowItWorks/>
-      <DownloadCont/>
-      <Testimonals/>
-      <FAQ/>
-      <Footer/>
+      <Router>
+      <Routes>
+      <Route path='/faq' element={<FAQPage/>}/>
+      <Route path='/company' element={<Company/>}/>
+      <Route path='/Contactus' element={<ContactUs/>}/>
+      <Route path='/' element={<Home/>}/>
 
+      </Routes>
+      </Router>
     </div>
   );
 }

@@ -4,10 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
+    padding: 0 5%;
 }
 .leftcont{
-    width: 43%;
+    width: 55%;
 }
 .boldtext{
 font-family: 'Inter';
@@ -16,17 +17,30 @@ font-weight: 800;
 font-size: 70px;
 line-height: 80px;
 color: #172B4D;
+margin-bottom: 15px;
+}
+.now{
+    color: #5a27ae;
+    border-bottom: 5px solid #5a27ae;
 }
 .mediumtext{
 font-style: normal;
 font-weight: 400;
-font-size: 23px;
+font-size: 22px;
 line-height: 40px;
 color: #5B5971;
+margin-bottom: 15px;
 }
 .rightcont{
-    width: 44%;
-    background: #f4f6fc;
+    width: 50%;
+}
+.heromockup{
+    display: flex;
+    justify-content: flex-end;
+}
+.rightcont img{
+    width: 98%;
+
 }
 .CreditSection,
 .InterestSection,
@@ -35,46 +49,233 @@ color: #5B5971;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5% 5%;
 }
 .Creditleftcont{
-    width: 44%;
-    background: #f4f6fc;
+    width: 40%;
+}
+.Creditleftcont img {
+    width: 99%;
 }
 .Creditrightcont,
 .CashBackrightcont{
-    width: 44%;
+    width: 45%;
 }
 .smallHeadline{
 font-weight: 500;
 font-size: 22px;
 line-height: 60px;
 color: #27AE60;
+margin-bottom: 0;
 }
 .semiboldtext{
 font-weight: 800;
 font-size: 45px;
 line-height: 60px;
 color: #172B4D;
+margin-bottom: 15px;
+
 }
 .semimediumtext{
 font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 color: #333333;
+margin-bottom: 15px;
+
 }
 .downloadNow{
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 60px;
+scroll-behavior: smooth;
 
 }
 .downloadNow a{
     color: #3861FB;
 }
 .InterestLeftCont{
-    width: 44%;
+    width: 45%;
+}
+.InterestLeftCont img{
+    width: 92%;
+}
+.CashBackleftcont{
+    width: 45%;
+}
+.CashBackleftcont img{
+    width: 92%;
 }
 .InterestRightcont{
     width: 44%;
+}
+.btngoogle{
+    width: 35%;
+}
+.hgoogleBg img{
+    width: 60px;
+    height: 60px;
+}
+.hgoogleLink{
+    background: #011d85;
+    border-radius: 6px;
+    }
+    .hgoogleBg{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        
+        }
+        .hgoogleBg p{
+            color: #fff;
+            padding: 0 0.7rem;
+            
+            }
+.htextgoogle .hgoogleSm{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.htextgoogle .hgoogleLg{
+    font-size: 1.3rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .leftcont{
+        width: 46%;
+    }
+    .boldtext{
+    font-weight: 600;
+    font-size: 30px;
+    
+    }
+    .now{
+        color: #5a27ae;
+        border-bottom: 5px solid #5a27ae;
+    }
+    .mediumtext{
+    font-weight: 400;
+    font-size: 16px;
+    
+    }
+}
+@media screen and (max-width: 375px){
+    .Herosection{
+      flex-direction: column;
+        padding: 4% 2%;
+    }
+    .leftcont{
+        width: 100%;
+    }
+    .boldtext{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    }
+    .mediumtext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+
+    }
+    .rightcont{
+        width: 100%
+    }
+    .rightcont img{
+        width: 100%;
+    
+    }
+    .CreditSection,
+    .InterestSection,
+    .CashbackSection{
+        flex-direction: column;
+        padding: 5% 5%;
+        margin-top: 1.9rem;
+    }
+    .Creditleftcont{
+        width: 100%;
+    }
+    .Creditleftcont img {
+        width: 100%;
+    }
+    .Creditrightcont,
+    .CashBackrightcont{
+        width: 100%;
+    }
+    .smallHeadline{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    }
+    .semiboldtext{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    }
+    .semimediumtext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    }
+    .downloadNow{
+    
+    font-size: 18px;
+    line-height: 40px;
+    
+    }
+    
+    .InterestLeftCont{
+        width: 100%;
+    }
+    .InterestLeftCont img{
+        width: 100%;
+    }
+    .InterestRightcont{
+        width: 100%;
+    }
+    .btngoogle{
+        width: 50%;
+    }
+    .hgoogleBg img{
+        width: 32px;
+        height: 32px;
+    }
+    .htextgoogle .hgoogleSm{
+        font-size: 11px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    .htextgoogle .hgoogleLg{
+        font-size: 24px;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .leftcont{
+        width: 46%;
+    }
+    .boldtext{
+    font-weight: 600;
+    font-size: 30px;
+    
+    }
+    .now{
+        color: #5a27ae;
+        border-bottom: 5px solid #5a27ae;
+    }
+    .mediumtext{
+    font-weight: 400;
+    font-size: 16px;
+    
+    }
 }

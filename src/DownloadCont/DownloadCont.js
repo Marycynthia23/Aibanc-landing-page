@@ -7,15 +7,15 @@ const DownloadCont = () => {
 
   return (
     <div>
-       <section className="downloadCont">
+       <section id="download" className="downloadCont">
         <div className="content">
         <p className='downloadHeadline'>Download Our App Today</p>
         <p className="subtext">Scan the QR code with
          your phone camera to download the Aibanc app
-          from playmoney</p>
+          from playstore</p>
         </div>
-        <div style={{ background: "white", padding: '16px' }}>
-        <QRCodeSVG size="250" fgColor="#000" ref={qrcodeRef} />
+        <div className='qrcode' style={{ background: "white", padding: '16px' }}>
+        <QRCodeSVG size="200" fgColor="#000"  ref={qrcodeRef} />
       </div>
        </section>
     </div>
