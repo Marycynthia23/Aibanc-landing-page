@@ -19,9 +19,9 @@ const closeMenu = () => setClick(false);
 
 <div className="navbar" id="navbar">
       <nav className="navBar">
-      <NavLink to="/" onClick={closeMenu}>
+      {/* <NavLink to="/"> */}
             <img className="logo" src={Logo} alt="logo" />
-            </NavLink>
+            {/* </NavLink> */}
 
         <div className="hamburger" onClick={handleClick}>
           {click ? (

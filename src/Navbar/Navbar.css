@@ -12,18 +12,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
-    margin: auto;
-    max-width: 1150px;
+    padding: 0 5%;
+
   }
   .logo{
-    width: 13%;
+    width: 15%;
   }
   .logo img{
     width: 100%;
   }
   .nav-menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 40%; */
   }
   .nav-item {
     padding: 12px 24px;
@@ -79,12 +81,12 @@
     }
   
   @media screen and (max-width: 708px) and (min-width: 568px) {
-    .logo{
+    /* .logo{
       width: 13%;
     }
     .logo img{
       width: 100%;
-    }
+    } */
     .nav-item a {
       color: #fff;
       text-decoration: none;
@@ -92,12 +94,12 @@
       }
   }
   @media screen and (max-width: 567px) {
-    .logo{
+    /* .logo{
       width: 13%;
     }
     .logo img{
       width: 100%;
-    }
+    } */
     .nav-item a {
       color: #fff;
       text-decoration: none;
@@ -106,12 +108,12 @@
   }
   
   @media screen and (max-width: 940px) {
-    .logo{
+    /* .logo{
       width: 13%;
     }
     .logo img{
       width: 100%;
-    }
+    } */
   
     .header .navbar {
       max-width: 100%;
@@ -144,15 +146,7 @@
     .nav-item {
       margin: 1.5rem 0;
     }
-    .header-logo {
-      width: 80px;
-      padding-left: 20px;
-    }
-    .navbar-btn {
-      margin: auto;
-      padding: 15px 17px;
-      margin-top: 0px;
-    }
+  
     .navbar {
       height: 80px;
       /* padding: 60px 30px 50px 30px; */
