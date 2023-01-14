@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Download.css";
 import { QRCodeSVG } from "qrcode.react";
-import Scan from "./images/scan.png";
+// import Scan from "./images/scan.png";
 // import { useRef } from "react";
 
 function Download() {
