@@ -15,7 +15,7 @@ const DownloadCont = () => {
           from playstore</p>
         </div>
         <div className='qrcode' style={{ background: "white", padding: '16px' }}>
-        <QRCodeSVG size="200" fgColor="#000"  ref={qrcodeRef} />
+        <QRCodeSVG size="200"  fgColor="#000"  ref={qrcodeRef} />
       </div>
        </section>
     </div>

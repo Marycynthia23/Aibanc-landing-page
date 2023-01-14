@@ -48,9 +48,10 @@ function ContactUs() {
       </div>
       <br/>
       <br/>
-      <FAQ/>
+      <div style={{background: "#fff"}}>
       <Testimonial/>
       <Footer/>
+      </div>
     </div>
     </>
   );
