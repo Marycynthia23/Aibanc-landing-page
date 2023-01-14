@@ -1,3 +1,4 @@
+// import { Download } from "@mui/icons-material";
 import React, { useState } from "react";
 import FAQ from "../FAQ/FAQ";
 import Footer from "../Footer/Footer";
@@ -5,6 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import "./ContactUs.css";
 import ContactPicture from "./images/contact.png";
 import Testimonial from "./Testimonial";
+import Download from "./Download";
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -44,12 +46,11 @@ function ContactUs() {
                   onChange={handleChange}
                   placeholder="Enter email address" />
                 </div>
-              </div>
 
-              <div className="inner-field2">
-                <label className="label">Subject</label>
-                <input type="text" placeholder="Kindly select a subject" />
-              </div>
+                <div className="message">
+                  <label className="label">Message</label>
+                  <textarea placeholder="Message......" />
+                </div>
 
               <div className="message">
                 <label className="label">Message</label>
@@ -59,13 +60,19 @@ function ContactUs() {
               </div>
 
               <button type="submit">Send</button>
+              </div>
             </form>
           </div>
         </div>
-        <div className="contact-picture">
-          <img src={ContactPicture} alt="" />
-        </div>
+        <br />
+        <br />
+        <FAQ />
+        <Download />
+        <Testimonial />
+        <Footer />
       </div>
+
+
       <br/>
       <br/>
       <div style={{background: "#fff"}}>
@@ -73,6 +80,7 @@ function ContactUs() {
       <Footer/>
       </div>
     </div>
+
     </>
   );
 }
