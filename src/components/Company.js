@@ -22,8 +22,8 @@ function Company() {
             </h1>
             <p className="paragraph2">
               Apply early, get approved and get on with life. Aibanc is changing
-              the way you think about credit by helping you <br /> get access to
-              your money faster and cheaper.
+              the way you think about credit by helping you{" "}
+              <br className="br" /> get access to your money faster and cheaper.
             </p>
           </div>
           <div className="companyImage">
