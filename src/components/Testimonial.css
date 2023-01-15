@@ -60,13 +60,20 @@
   }
   .testimonials h3 {
     font-size: 28px;
-    line-height: 44px;
+    line-height: 35px;
   }
 
   .description {
     font-size: 15px;
+    padding-top: 10px;
   }
   .horizontalLine {
     width: 40%;
+    padding-top: 0px;
+  }
+  .test-cont img {
+    width: 130px;
+    height: 130px;
+    margin-top: 0px;
   }
 }

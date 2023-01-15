@@ -70,7 +70,14 @@
 
 @media screen and (min-width: 701px) and (max-width: 900px) {
   .downloadImage {
-    width: 35%;
+    width: 40%;
+    /* margin: 0px; */
+  }
+  .downloadImage img {
+    height: 200px;
+    width: 200px;
+    border-radius: 0px;
+    background: white;
   }
   .downloadWriteUp {
     width: 55%;
