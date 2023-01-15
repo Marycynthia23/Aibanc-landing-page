@@ -36,7 +36,7 @@ const FAQ = () => {
                 padding: "20px 0px",
               }}
             >
-              Why request my BVN?
+              <p className="question">Why request my BVN?</p>
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -50,6 +50,7 @@ const FAQ = () => {
                 color: "#5B5971",
               }}
             >
+              
               The regulators require the BVN to know your Customer (KYC) to
               access our credit tool.
             </Typography>
@@ -79,7 +80,10 @@ const FAQ = () => {
                 padding: "20px 0px",
               }}
             >
+              <p className="question">
               How can I get my banks statement?
+              </p>
+             
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -116,7 +120,9 @@ const FAQ = () => {
                 padding: "20px 0px",
               }}
             >
-              Unable to sign in, BVN registered to another user?
+              <p className="question">  
+                          Unable to sign in, BVN registered to another user?
+</p>
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -160,7 +166,8 @@ const FAQ = () => {
                 padding: "20px 0px",
               }}
             >
-              What should I do if I need more help?
+              <p className="question">What should I do if I need more help?</p>
+              
             </Typography>
           </AccordionSummary>
           <AccordionDetails>

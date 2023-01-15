@@ -135,7 +135,6 @@ scroll-behavior: smooth;
         }
         .hgoogleBg p{
             color: #fff;
-            /* padding: 0 0.7rem; */
             text-align: left;
 
             
@@ -259,12 +258,18 @@ scroll-behavior: smooth;
         width: 100%;
     
     }
-    .CreditSection,
+    /* .CreditSection,
     .InterestSection,
     .CashbackSection{
         flex-direction: column;
         padding: 5% 5%;
         margin-top: 1.9rem;
+    } */
+    .CreditSection, .CashbackSection{
+        flex-direction: column-reverse;
+    }
+    .InterestSection{
+        flex-direction: column;
     }
     .Creditleftcont{
         width: 100%;
@@ -285,16 +290,19 @@ scroll-behavior: smooth;
     font-weight: 600;
     font-size: 25px;
     line-height: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     }
     .semimediumtext{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+
     }
     .downloadNow{
-    
-    font-size: 18px;
+        margin-top: 5px;
+    font-size: 16px;
     line-height: 40px;
     
     }

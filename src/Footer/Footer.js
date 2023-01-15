@@ -12,8 +12,8 @@ const Footer = () => {
             <img src={logo} alt="footerlogo"/>
         </div>
         <ul className="navmenu">
-            <li><a className="footerlist" href="/Company">Our Company</a></li>
-            <li><a className="footerlist" href="/Contact ">Contact us</a></li>
+            <li><a className="footerlist" href="/company">Our Company</a></li>
+            <li><a className="footerlist" href="//Contactus ">Contact us</a></li>
             <li><a className="footerlist" href="/faq">FAQs</a></li>
             <li><a className="footerlist" href="mailto:Support@aibanc.co">Support@aibanc.co</a></li>
         </ul>

@@ -156,7 +156,7 @@
             font-style: normal;
             font-weight: 600;
             font-size: 30px;
-            line-height: 60px;
+            line-height: 40px;
             color: #172B4D;
             }
           .HowItWorksrightcont{
@@ -179,6 +179,8 @@
                 .caption {
                   font-weight: 400;
                   font-size: 16px;
+                  /* line-height: 24px; */
+
                 }
                 .step + .step {
                   margin-top: 1.5em

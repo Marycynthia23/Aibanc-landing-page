@@ -12,7 +12,7 @@ function Download() {
           <h3>Download Our App Today</h3>
           <p>
             Scan the QR code with your phone camera to download the Aibanc app
-            from playmoney.
+            from playstore.
           </p>
         </div>
 
