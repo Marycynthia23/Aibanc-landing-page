@@ -12,10 +12,10 @@ const Footer = () => {
             <img src={logo} alt="footerlogo"/>
         </div>
         <ul className="navmenu">
-            <li><a href="/Company">Our Company</a></li>
-            <li><a href="/Contact ">Contact us</a></li>
-            <li><a href="/faq">FAQs</a></li>
-            <li><a href="mailto:Support@aibanc.co">Support@aibanc.co</a></li>
+            <li><a className="footerlist" href="/Company">Our Company</a></li>
+            <li><a className="footerlist" href="/Contact ">Contact us</a></li>
+            <li><a className="footerlist" href="/faq">FAQs</a></li>
+            <li><a className="footerlist" href="mailto:Support@aibanc.co">Support@aibanc.co</a></li>
         </ul>
         <div className="socials">
             <div className="social-media"><FaFacebookF /></div>

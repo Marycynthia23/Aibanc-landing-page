@@ -24,19 +24,19 @@
     line-height: 60px;
     color: #172B4D;
     }
-    .subheadline{
+    /* .subheadline{
         font-family: 'Inter';
         font-weight: 700;
         font-size: 24px;
         line-height: 24px;
         color: #172B4D;
-    }
-    .smalltext{
+    } */
+    /* .smalltext{
 font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 color: #333333;
-    }
+    } */
     .step{
         position: relative;
         z-index: 999;
@@ -99,6 +99,62 @@ color: #333333;
     z-index: -1;
   }
 
+  @media screen and (max-width: 980px){
+    .headline{
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 40px;
+      color: #172B4D;
+      }
+        .title {
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 24px;
+          color: #172B4D;
+          margin-bottom: 0;
+        }
+        .caption {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #333333;
+        }
+  }
+
+  
+  @media screen and (max-width: 768px){
+    .headline{
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 35px;
+      color: #172B4D;
+      }
+        .title {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 21px;
+          color: #172B4D;
+          margin-bottom: 0;
+        }
+        .caption {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+          color: #333333;
+        }
+  }
+@media screen and (max-width: 579px){
+.HowItWorks{
+  flex-direction: column;
+}
+.Leftcont{
+  width: 100%;
+}
+.HowItWorksrightcont{
+  width: 100%;
+}
+}
+
   @media screen and (max-width: 375px){
         .HowItWorks{
           flex-direction: column;
@@ -128,12 +184,8 @@ color: #333333;
                   align-items: center;
                }
                 .title {
-                  line-height: 1em;
-                  /* font-size: 1.4em; */
                   font-weight: 600;
                   font-size: 20px;
-                  line-height: 10px;
-                  margin-bottom: 0;
                 }
                 .caption {
                   font-weight: 400;

@@ -14,12 +14,12 @@ function Footer() {
 
         <div className="footerLinks">
           <ul>
-            <li>
+            <li className="footerLists">
               <NavLink to="company">Our Company</NavLink>{" "}
             </li>
-            <li>Contact Us</li>
-            <li>FAQs</li>
-            <li>Support@aibanc.co</li>
+            <li >Contact Us</li>
+            <li >FAQs</li>
+            <li >Support@aibanc.co</li>
           </ul>
         </div>
         <div className="socialMedia">

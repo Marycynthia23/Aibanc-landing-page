@@ -19,7 +19,7 @@
 }
 .navmenu li{
     list-style-type: none;
-    padding: 12px 24px;
+    padding: 10px 20px;
 }
 .navmenu li a{
     text-decoration: none;
@@ -43,7 +43,26 @@
     background: #fff;
     color: #1DA1F2;;
 }
+@media screen and (max-width: 579px){
+    .FooterCont{
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+    }
+    .footerlist{
+        font-size: 12px;
+    }
 
+    .socials{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    .socials-media{
+        margin-right: 20px;
+    }
+
+}
 
 @media screen and (max-width: 375px) {
     .FooterCont{
@@ -60,9 +79,9 @@
         text-align: left;
     }
     .socials{
-        max-width: auto;
+        width: auto;
     }
     .socials-media{
-        max-width: auto;
+        width: auto;
     } 
 }

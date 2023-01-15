@@ -175,6 +175,62 @@ scroll-behavior: smooth;
         margin-bottom: 0px;
     }
 }
+@media screen and (max-width: 579px){
+    .Herosection{
+     flex-direction: column;
+    }
+    .leftcont{
+        width: 95%;
+    }
+    .rightcont{
+        width: 100%;
+    }
+    .boldtext{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 80px;
+       
+        }
+        
+        .mediumtext{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+       
+        }
+        .hgoogleSm{
+            font-size: 10px;
+        }
+        .htextgoogle .hgoogleLg{
+            font-size: 1rem;
+            margin-top: 0;
+            padding-bottom: 0;
+            margin-bottom: 0px;
+        }
+        .CreditSection, .CashbackSection{
+            flex-direction: column-reverse;
+        }
+        .InterestSection{
+            flex-direction: column;
+        }
+        .CashBackleftcont,
+        .CashBackrightcont,
+        .InterestLeftCont,
+        .InterestRightcont,
+        .Creditrightcont,
+        .Creditleftcont
+        {
+            width: 97%;
+        }
+        .semiboldtext
+        {
+            font-size: 2rem;
+            line-height: 40px;
+        }
+
+     }
 @media screen and (max-width: 375px){
     .Herosection{
       flex-direction: column;
@@ -185,13 +241,13 @@ scroll-behavior: smooth;
     }
     .boldtext{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 2.2rem;
     line-height: 40px;
     margin-bottom: 15px;
     }
     .mediumtext{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     margin-bottom: 15px;
 
@@ -269,24 +325,5 @@ scroll-behavior: smooth;
         margin-top: 0;
         padding-bottom: 0;
         margin-bottom: 5px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .leftcont{
-        width: 46%;
-    }
-    .boldtext{
-    font-weight: 600;
-    font-size: 30px;
-    
-    }
-    .now{
-        color: #5a27ae;
-        border-bottom: 5px solid #5a27ae;
-    }
-    .mediumtext{
-    font-weight: 400;
-    font-size: 16px;
-    
     }
 }
