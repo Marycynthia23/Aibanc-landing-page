@@ -157,6 +157,9 @@
     align-items: center;
     color: #c0c0c2;
   }
+  .contact-form h3 {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 900px) {
