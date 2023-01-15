@@ -3,7 +3,7 @@ import "./Navbar.css"
 import Logo from "../Images/logo.png"
 import googleplay from "../Images/googleplay.png"
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const closeMenu = () => setClick(false);
 
 <div className="navbar" id="navbar">
       <nav className="navBar">
-            <img className="logo" src={Logo} alt="logo" />
+            <Link to="/"><img className="logo" src={Logo} alt="logo" /></Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#172B4D" }}/>
