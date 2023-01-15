@@ -1,20 +1,20 @@
-import React from 'react'
-import Testimonial from '../components/Testimonial'
-import DownloadCont from '../DownloadCont/DownloadCont'
-import FAQ from '../FAQ/FAQ'
-import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
+import React from "react";
+import Download from "../components/Download";
+import Testimonial from "../components/Testimonial";
+import FAQ from "../FAQ/FAQ";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 
 const FAQPage = () => {
   return (
     <div>
-        <Navbar/>
-        <FAQ/>
-        <DownloadCont/>
-        <Testimonial/>
-        <Footer/>
+      <Navbar />
+      <FAQ />
+      <Download />
+      <Testimonial />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default FAQPage
+export default FAQPage;

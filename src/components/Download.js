@@ -7,7 +7,7 @@ import Scan from "./images/scan.png";
 function Download() {
   const qrcodeRef = useRef(null);
   return (
-    <div className="downloadSection">
+    <div className="downloadSection" id="download">
       <div className="download">
         <div className="downloadWriteUp">
           <h3>Download Our App Today</h3>
