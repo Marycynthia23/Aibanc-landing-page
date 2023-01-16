@@ -58,14 +58,9 @@ function ContactUs() {
             <img src={ContactPicture} alt="" />
           </div>
         </div>
-        <br />
-        <br />
-        <FAQ />
-        <Download />
       </div>
-
-      <br />
-      <br />
+      <FAQ />
+      <Download />
       <div style={{ background: "#fff" }}>
         <Testimonial />
         <Footer />

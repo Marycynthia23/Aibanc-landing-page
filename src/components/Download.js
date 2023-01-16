@@ -20,7 +20,7 @@ function Download() {
         <div className="downloadImage">
           <div
             className="qrcode"
-            style={{ width: "50%", background: "white", padding: "16px" }}
+            style={{ background: "white", padding: "16px" }}
           >
             <QRCodeSVG
               size="120"
@@ -29,7 +29,6 @@ function Download() {
               value="https://play.google.com/store/apps/details?id=co.aibanc.Aibanc_APP"
             />
           </div>
-          {/* <img src={Scan} alt="scan" /> */}
         </div>
       </div>
     </div>
