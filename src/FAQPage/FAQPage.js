@@ -4,10 +4,7 @@ import Testimonial from '../components/Testimonial'
 import FAQ from '../FAQ/FAQ'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
-import Testimonial from "../components/Testimonial";
-import FAQ from "../FAQ/FAQ";
-import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+
 
 const FAQPage = () => {
   return (
