@@ -9,7 +9,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homeCont">
       <Navbar />
       <HeroSection />
       <HowItWorks />

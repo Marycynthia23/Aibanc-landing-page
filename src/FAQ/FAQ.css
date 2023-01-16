@@ -26,11 +26,15 @@
     margin: 10px;
  }
   }
-  @media screen and (max-width: 375px){
+/* 
+  @media screen and (max-width: 580px) and (min-width: 579px) {
+  } */
+
+  @media screen and (max-width: 486px){
     .faqheadline{
      font-weight: 600;
        font-size: 30px;
-       line-height: 38px;
+       line-height: 45px;
        margin: 10px;
        width: 100%;
     }
