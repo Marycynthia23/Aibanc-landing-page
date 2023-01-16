@@ -4,7 +4,7 @@
 .download {
   display: flex;
   justify-content: space-around;
-  padding: 25px 40px;
+  padding: 40px 50px;
   width: 70%;
   margin: auto;
   background: #011d85;
@@ -16,14 +16,14 @@
 }
 .downloadWriteUp h3 {
   font-family: "Inter";
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 600;
-  line-height: 38px;
+  line-height: 39px;
   padding-bottom: 0px;
 }
 .downloadWriteUp p {
   font-family: "Inter";
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 28px;
   color: #e7e7e7;
