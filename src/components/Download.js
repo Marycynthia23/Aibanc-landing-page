@@ -19,11 +19,7 @@ function Download() {
         <div className="downloadImage">
           <div
             className="qrcode"
-<<<<<<< HEAD
             style={{  background: "white", padding: "10px" }}
-=======
-            style={{ background: "white", padding: "16px" }}
->>>>>>> 63696a795fe7087d0f55309372cd37c91891f118
           >
             <QRCodeSVG
               size="120"

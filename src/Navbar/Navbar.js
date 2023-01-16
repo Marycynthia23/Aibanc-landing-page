@@ -3,7 +3,7 @@ import "./Navbar.css"
 import Logo from "../Images/logo.png"
 import googleplay from "../Images/googleplay.png"
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
