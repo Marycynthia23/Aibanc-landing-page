@@ -4,7 +4,7 @@
 .download {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0px;
+  padding: 40px 100px;
   width: 80%;
   margin: auto;
   background: #011d85;
@@ -12,8 +12,7 @@
   color: white;
 }
 .downloadWriteUp {
-  width: 50%;
-  margin: auto;
+  width: 65%;
 }
 .downloadWriteUp h3 {
   font-family: "Inter";
@@ -28,15 +27,6 @@
   font-weight: 300;
   line-height: 30px;
   color: #e7e7e7;
-}
-.downloadImage {
-  width: 30%;
-}
-.downloadImage img {
-  height: 150px;
-  width: 150px;
-  border-radius: 0px;
-  background: white;
 }
 
 @media screen and (max-width: 700px) {
@@ -67,31 +57,61 @@
     padding-top: 60px;
   }
 }
-
-@media screen and (min-width: 701px) and (max-width: 900px) {
-  .downloadImage {
-    width: 40%;
-    /* margin: 0px; */
-  }
-  .downloadImage img {
-    height: 200px;
-    width: 200px;
-    border-radius: 0px;
-    background: white;
-  }
-  .downloadWriteUp {
-    width: 55%;
+@media screen and (min-width: 701px) and (max-width: 800px) {
+  .download {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 85%;
     margin: auto;
+    background: #011d85;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .downloadWriteUp {
+    width: 60%;
+    padding: 15px 0px;
   }
   .downloadWriteUp h3 {
-    font-size: 29px;
+    font-size: 21px;
     line-height: 40px;
+    padding-bottom: 0px;
   }
   .downloadWriteUp p {
     font-family: "Inter";
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 25px;
+    color: #e7e7e7;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .download {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 85%;
+    margin: auto;
+    background: #011d85;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .downloadWriteUp {
+    padding: 20px 0px;
+    width: 65%;
+  }
+  .downloadWriteUp h3 {
+    font-size: 24px;
+    line-height: 40px;
+    padding-bottom: 0px;
+  }
+  .downloadWriteUp p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
     color: #e7e7e7;
   }
 }

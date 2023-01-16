@@ -178,6 +178,9 @@
   }
 }
 @media screen and (min-width: 901px) and (max-width: 900px) {
+  * {
+    overflow-x: hidden;
+  }
   .inner-field ::placeholder,
   .inner-field2 ::placeholder {
     font-size: 19px;
