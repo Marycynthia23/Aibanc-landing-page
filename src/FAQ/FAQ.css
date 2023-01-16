@@ -2,7 +2,7 @@
   width: 90%;
   /* margin-top: 100px; */
   margin: auto;
-  padding: 100px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
 }
 .faqheadline {
   font-family: "Inter";
@@ -12,7 +12,7 @@
   line-height: 60px;
   text-align: center;
   color: #172b4d;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .subhead {
   font-family: "Inter";
