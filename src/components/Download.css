@@ -4,8 +4,8 @@
 .download {
   display: flex;
   justify-content: space-between;
-  padding: 40px 100px;
-  width: 80%;
+  padding: 40px 30px;
+  width: 60%;
   margin: auto;
   background: #011d85;
   border-radius: 10px;
@@ -59,19 +59,13 @@
 }
 @media screen and (min-width: 701px) and (max-width: 800px) {
   .download {
-    display: flex;
-    justify-content: space-between;
     padding: 20px 50px;
     width: 85%;
-    margin: auto;
-    background: #011d85;
-    border-radius: 10px;
-    color: white;
   }
 
   .downloadWriteUp {
     width: 60%;
-    padding: 15px 0px;
+    padding: 20px 0px;
   }
   .downloadWriteUp h3 {
     font-size: 21px;
@@ -88,14 +82,8 @@
 }
 @media screen and (min-width: 801px) and (max-width: 900px) {
   .download {
-    display: flex;
-    justify-content: space-between;
     padding: 20px 50px;
-    width: 85%;
-    margin: auto;
-    background: #011d85;
-    border-radius: 10px;
-    color: white;
+    width: 80%;
   }
 
   .downloadWriteUp {
@@ -108,10 +96,8 @@
     padding-bottom: 0px;
   }
   .downloadWriteUp p {
-    font-family: "Inter";
     font-size: 18px;
     font-weight: 300;
     line-height: 25px;
-    color: #e7e7e7;
   }
 }
