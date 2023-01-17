@@ -33,7 +33,7 @@ const FAQ = () => {
                 alignItems: "center",
                 color: "#172B4D",
                 boxshadow: "none",
-                padding: "20px 0px",
+                padding: "15px 0px",
               }}
             >
               <p className="question">Why request my BVN?</p>
@@ -77,7 +77,7 @@ const FAQ = () => {
                 alignItems: "center",
                 color: "#172B4D",
                 boxshadow: "none",
-                padding: "20px 0px",
+                padding: "15px 0px",
               }}
             >
               <p className="question">
@@ -117,7 +117,7 @@ const FAQ = () => {
                 alignItems: "center",
                 color: "#172B4D",
                 boxshadow: "none",
-                padding: "20px 0px",
+                padding: "15px 0px",
               }}
             >
               <p className="question">  
@@ -163,7 +163,7 @@ const FAQ = () => {
                 alignItems: "center",
                 color: "#172B4D",
                 boxshadow: "none",
-                padding: "20px 0px",
+                padding: "15px 0px",
               }}
             >
               <p className="question">What should I do if I need more help?</p>
