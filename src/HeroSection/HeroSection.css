@@ -174,33 +174,7 @@ scroll-behavior: smooth;
         margin-bottom: 0px;
     }
 }
-/* @media screen and (max-width: 1400) {
-    .boldtext{
-        font-weight: 800;
-        font-size: 4.4rem;
-        
-        }
-        
-        .mediumtext{
-        font-weight: 400;
-        font-size: 16px;
-        
-        }
-        .hgoogleSm{
-            font-size: 10px;
-        }
-        .htextgoogle .hgoogleLg{
-            font-size: 1rem;
-            margin-top: 0;
-            padding-bottom: 0;
-            margin-bottom: 0px;
-        } 
-        .hgoogleBg img{
-            width: 55px;
-            height: 55px;
-        }
 
-} */
 
 @media screen and (max-width: 768px){
     .boldtext{
@@ -357,13 +331,7 @@ scroll-behavior: smooth;
         width: 100%;
     
     }
-    /* .CreditSection,
-    .InterestSection,
-    .CashbackSection{
-        flex-direction: column;
-        padding: 5% 5%;
-        margin-top: 1.9rem;
-    } */
+  
     .CreditSection, .CashbackSection{
         flex-direction: column-reverse;
     }
@@ -400,7 +368,7 @@ scroll-behavior: smooth;
 
     }
     .downloadNow{
-        margin-top: 5px;
+    margin-top: 5px;
     font-size: 16px;
     line-height: 40px;
     
@@ -434,7 +402,7 @@ scroll-behavior: smooth;
         margin-bottom: 5px;
     }
 }
-@media screen and (min-width: 376px){
+@media screen and (max-width: 482px){
     .boldtext{
         font-weight: 700;
         font-size: 2.1rem;
