@@ -150,7 +150,35 @@ scroll-behavior: smooth;
     padding-bottom: 0;
     margin-bottom: 0px;
 }
-
+@media screen and (max-width: 1337) {
+    .boldtext{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 4.1rem;
+        line-height: 75px;
+        color: #172B4D;
+        margin-bottom: 15px;
+        }
+        .mediumtext{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        color: #5B5971;
+        margin-bottom: 15px;
+        }
+        .leftcont{
+            width: 47%;
+            padding: 10% 0;
+        
+        }
+        .rightcont{
+            width: 47%;
+            padding: 10% 0;
+        
+        }
+}
 @media screen and (max-width: 1024px){
     
     .boldtext{
@@ -416,4 +444,5 @@ scroll-behavior: smooth;
         margin-bottom: 15px;
     
         }
+        
 }
