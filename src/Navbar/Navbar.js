@@ -22,9 +22,9 @@ const closeMenu = () => setClick(false);
             <a href='/'><img className="nav-logo" src={Logo} alt="logo" /></a>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
-            <FaTimes size={24} style={{ color: "#fff"}}/>
+            <FaTimes size={20} style={{ color: "#172B4D"}}/>
           ) : (
-            <FaBars size={24} style={{ color: "#fff"}}/>
+            <FaBars size={20} style={{ color: "#172B4D"}}/>
           )}
         </div>
 
