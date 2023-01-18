@@ -43,6 +43,7 @@ margin-bottom: 15px;
 }
 .rightcont img{
     width: 95%;
+    image-rendering: pixelated;
 
 }
 .CreditSection,
