@@ -1,5 +1,6 @@
 // import { Download } from "@mui/icons-material";
-import React from "react";
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 import FAQ from "../FAQ/FAQ";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -8,7 +9,55 @@ import ContactPicture from "./images/contact.png";
 import Testimonial from "./Testimonial";
 import Download from "./Download";
 
+
 function ContactUs() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const value = e.target.value;
+    const name = e.target.name;
+
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(formData);
+
+    // Details for email
+    let toSend = {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.subject,
+      message: formData.message,
+    };
+    // sending emails to users
+    emailjs
+      .send("service_tmxdsnc", "template_2rxfrml", toSend, "l-Ga1egKjNHY92Thv")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    setFormData({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    });
+  };
+
   return (
     <>
       <Navbar />
@@ -17,22 +66,34 @@ function ContactUs() {
           <div className="con-contact-form">
             <div className="contact-form">
               <h3>Get in touch</h3>
-              <form>
+              <form onSubmit={sendEmail}>
                 <div className="form-field">
                   <div className="inner-field">
                     <label className="label">Full name</label>
-                    <input type="text" placeholder="Enter full name" />
+                    <input type="text"
+                        name="name"
+                        required
+                        value={formData.name}
+                        onChange={handleChange} placeholder="Enter full name" />
                   </div>
 
                   <div className="inner-field">
                     <label className="label">Email Address</label>
-                    <input type="text" placeholder="Enter email address" />
+                    <input type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                     placeholder="Enter email address" />
                   </div>
                 </div>
 
                 <div className="inner-field22">
                   <label className="label">Full name</label>
-                  <input type="text" placeholder="Enter your fullname" />
+                  <input type="text" name="name"
+                        required
+                        value={formData.name}
+                        onChange={handleChange}
+                        placeholder="Enter your fullname" />
                 </div>
 
                 <div className="inner-field22">
@@ -42,12 +103,23 @@ function ContactUs() {
 
                 <div className="inner-field2">
                   <label className="label">Subject</label>
-                  <input type="text" placeholder="Kindly select a subject" />
+                  <input type="text" name="subject"
+                        required
+                        value={formData.subject}
+                        onChange={handleChange}
+                        placeholder="Kindly select a subject" />
                 </div>
 
                 <div className="message">
                   <label className="label">Message</label>
-                  <textarea placeholder="Message......" />
+                  <textarea placeholder="Message......" 
+                  value={formData.message}
+                  onChange={handleChange}
+                  name="message"
+                  rows="7"
+                  cols="40"
+                 
+             />
                 </div>
 
                 <button type="submit">Send</button>
