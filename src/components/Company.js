@@ -18,13 +18,12 @@ function Company() {
         <div className="company">
           <div className="companyText">
             <h1 className="paragraph1">
-              We make credit a part <br className="break" /> of your everyday
-              life.
+              We want to change your perspective about credit
             </h1>
             <p className="paragraph2">
-              Apply early, get approved and get on with life. Aibanc is changing
-              the way you think about credit by helping you{" "}
-              <br className="br" /> get access to your money faster and cheaper.
+              Apply, get approved and ahead with life. Aibanc is changing the
+              way you see credit by helping you access credit cheaper and
+              faster.
             </p>
           </div>
           <div className="companyImage">
