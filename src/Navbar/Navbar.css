@@ -93,10 +93,12 @@
        color: #172B4D;
        text-decoration: none;
        font-size: 18px;
+       text-align: left;
        }
      .hamburger {
        display: block;
        color: #172B4D;
+       margin-right: 30px;
        /* border-radius: 50%; */
     /* padding: 18px; */
     /* background-color: #5a27ae; */
@@ -128,6 +130,8 @@
       color: #172B4D;
       text-decoration: none;
       font-size: 18px;
+      text-align: left;
+
       }
   }
   @media screen and (max-width: 375px) {
@@ -136,6 +140,8 @@
       text-decoration: none;
       font-size: 18px;
       width: 70%;
+      text-align: left;
+
       }
   }
   

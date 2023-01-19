@@ -49,7 +49,7 @@ margin-bottom: 15px;
 .CreditSection,
 .InterestSection,
 .CashbackSection{
-    min-height: 80vh;
+    /* min-height: 80vh; */
     display: flex;
     justify-content: space-between;
     align-items: center;
