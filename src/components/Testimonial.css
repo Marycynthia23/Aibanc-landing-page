@@ -25,12 +25,20 @@
   text-align: center;
   justify-content: center;
 }
-.test-cont img {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  margin-top: 30px;
+.circle-image {
+  display: inline-block;
+  overflow: hidden;
+  width: 13%;
+  padding-bottom: 13%;
+  height: 0;
+  position: relative;
+}
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
   border-radius: 50%;
+  object-fit: cover;
 }
 .description {
   font-family: "Inter";
