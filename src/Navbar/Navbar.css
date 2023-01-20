@@ -12,7 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.8% 5%;
+    /* padding: 0.8% 5%; */
+    width: 100%;
+
 
   }
   
@@ -50,37 +52,11 @@
     padding: 17px 22px;
   }
  
-  .googleLink{
-    background: #011d85;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
+  .googleLink img{
+    width: 30%;
     
     }
-    .googleBg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    
-    }
-    .googleBg img{
-        width: 40px;
-        height: 40px;
-    }
-    .googleBg p{
-    color: #fff;
-    padding: 0 10px;
-    
-    }
-    .googleSm{
-        font-size: 7px;
-        margin-bottom: 0;
-    }
-    .googleLg{
-        font-size: 15px;
-        margin-top: 0;
-    }
+   
     @media screen and (max-width: 940px) {
       .navbar {
        max-width: 100%;

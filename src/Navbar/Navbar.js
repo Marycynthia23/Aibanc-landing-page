@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
 import Logo from "../Images/logo.png"
-import googleplay from "../Images/googleplay.png"
+import googleplay from "../Images/GooglePlayBadge2.png"
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -48,13 +48,7 @@ const closeMenu = () => setClick(false);
           </li>
 
           <li className='googleLink'>
-                  <div className='googleBg'>
-                    <img src={googleplay} alt="googleplay"/>
-                    <div className='textgoogle'>
-                      <p className='googleSm'>GET IT ON</p>
-                      <p className='googleLg'>Google Play</p>
-                    </div>
-                  </div>
+                    <a href=""><img src={googleplay} alt="googleplay" /></a>
                   </li>
         </ul>
       </nav>

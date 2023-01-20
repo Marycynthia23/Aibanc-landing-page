@@ -17,7 +17,7 @@
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 4.4rem;
+font-size: 4.3rem;
 line-height: 80px;
 color: #172B4D;
 margin-bottom: 15px;
@@ -117,40 +117,10 @@ scroll-behavior: smooth;
 .btngoogle{
     width: 33%;
 }
-.hgoogleBg img{
-    width: 55px;
-    height: 55px;
+.btngoogle img{
+    width: 100%;
 }
-.hgoogleLink{
-    background: #011d85;
-    border-radius: 6px;
-    margin-top: 30px;
-    }
-    .hgoogleBg{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
-        padding-right: 12px;
-        
-        }
-        .hgoogleBg p{
-            color: #fff;
-            text-align: left;
 
-            
-            }
-.htextgoogle .hgoogleSm{
-    font-size: 0.8rem;
-    margin-bottom: 0;
-    margin-top: 5px;
-}
-.htextgoogle .hgoogleLg{
-    font-size: 1.5rem;
-    margin-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0px;
-}
 @media screen and (max-width: 1337) {
     .boldtext{
         font-family: 'Inter';
@@ -219,19 +189,7 @@ scroll-behavior: smooth;
         .btngoogle{
             width: 45%;
         }
-        .hgoogleBg img{
-            width: 50px;
-            height: 50px;
-        }
-        .hgoogleSm{
-            font-size: 10px;
-        }
-        .htextgoogle .hgoogleLg{
-            font-size: 1rem;
-            margin-top: 0;
-            padding-bottom: 0;
-            margin-bottom: 0px;
-        }
+        
         .CreditSection,
 .InterestSection,
 .CashbackSection{
@@ -300,15 +258,7 @@ scroll-behavior: smooth;
         line-height: 20px;
        
         }
-        .hgoogleSm{
-            font-size: 10px;
-        }
-        .htextgoogle .hgoogleLg{
-            font-size: 1rem;
-            margin-top: 0;
-            padding-bottom: 0;
-            margin-bottom: 0px;
-        }
+       
         .CreditSection, .CashbackSection{
             flex-direction: column-reverse;
         }
@@ -415,21 +365,7 @@ scroll-behavior: smooth;
     .btngoogle{
         width: 45%;
     }
-    .hgoogleBg img{
-        width: 30px;
-        height: 30px;
-    }
-    .htextgoogle .hgoogleSm{
-        font-size: 11px;
-        margin-bottom: 0;
-        margin-top: 5px;
-    }
-    .htextgoogle .hgoogleLg{
-        font-size: 20px;
-        margin-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 5px;
-    }
+   
 }
 @media screen and (max-width: 482px){
     .boldtext{

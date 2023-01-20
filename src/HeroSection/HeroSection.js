@@ -4,7 +4,8 @@ import mockup1 from "../Images/hero.svg"
 import mockup2 from "../Images/credit.svg"
 import mockup3 from "../Images/interest.svg"
 import mockup4 from "../Images/cashback.svg"
-import googleplay from "../Images/googleplay.png"
+import googleplay from "../Images/GooglePlayBadge2.png"
+import { Link } from 'react-router-dom'
 
 
 
@@ -14,18 +15,12 @@ const HeroSection = () => {
         <section className="Herosection">
             <div className="leftcont">
                 <div className="boldtext">Get the credit you deserve <span className="now">now.</span></div>
-                <p className="mediumtext">Access credit at an affordable rate,
-                manage your credit limit and earn 20% cashback on repayment.</p>
+                    <p className="mediumtext">Access credit at an affordable rate,
+                     manage your credit limit and earn 20% cashback on repayment.</p>
                 <div className="btngoogle">
-                <div className='hgoogleLink'>
-                  <div className='hgoogleBg'>
-                    <img src={googleplay} alt="googleplay"/>
-                    <div className='htextgoogle'>
-                      <p className='hgoogleSm'>GET IT ON</p>
-                      <p className='hgoogleLg'>Google Play</p>
-                    </div>
-                  </div>
-                  </div>
+                    <Link to="https://play.google.com/store/apps/details?id=co.aibanc.Aibanc_APP" className='hgoogleLink'>
+                        <img src={googleplay} alt="googleplay"/>
+                    </Link>
                 </div>
             </div>
             <div className="rightcont">
